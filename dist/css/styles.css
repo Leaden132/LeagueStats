@@ -1,0 +1,71 @@
+html {
+  font-size: 100%;
+  background-color: black;
+  color: white;
+}
+
+.champion {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rank {
+  width: 12%;
+}
+
+.matchHistory {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.playerName {
+  margin-top: 15px;
+}
+
+.player {
+  display: flex;
+}
+
+.game {
+  display: flex;
+  margin-bottom: 50px;
+  border: 2px solid black;
+  width: 80%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+.myChampion {
+  margin: auto 0;
+  width: 50px;
+  height: 50px;
+}
+
+.blueTeam {
+  display: flex;
+  flex-direction: column;
+}
+
+.redTeam {
+  display: flex;
+  flex-direction: column;
+}
