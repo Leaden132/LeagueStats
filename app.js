@@ -2,6 +2,10 @@ const app = {};
 app.key = `RGAPI-7a7ab972-8c0f-4665-bdb0-b65051695a9f`;
 app.summonerData;
 
+
+//UPDATE THIS TO MODULAR REACT CODE!!!!
+//THIS REPO IS VOIDED
+
 // need to grab, game type= queueId, time played, win/lose = teams.1 or 0.win, game length, champion played, KDA, level, CS, kill participation, item bought, 10 ppl who played in that match and their champs
 
 app.getDate = (query) => {
